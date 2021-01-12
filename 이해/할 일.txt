@@ -1,0 +1,18 @@
+1. 프레임 워크 문서를 고도화 해서 웹 이외의 다른 프레임 워크의 구조도 공부해 볼 것.
+
+2. 디자인 문서 보고 흐름이나 구조 파악하여 문서화 해 보기
+
+API Composition 개념
+
+https://skibis.tistory.com/310	
+https://www.google.com/search?rlz=1C1SQJL_koKR931KR931&sxsrf=ALeKk02YqLFL8xomthQR26B_mJcRyva-cA%3A1610064624827&ei=8KL3X7X-Mdn7wQOFz64w&q=Environment+provider&oq=Environment+provider&gs_lcp=CgZwc3ktYWIQAzIECCMQJzIECAAQHjIGCAAQBRAeMgYIABAFEB4yBggAEAUQHjIGCAAQBRAeMgYIABAFEB4yBggAEAUQHjIGCAAQBRAeMgYIABAFEB5QtCZYtCZgvShoAHAAeACAAX6IAfABkgEDMC4ymAEAoAEBqgEHZ3dzLXdpergBA8ABAQ&sclient=psy-ab&ved=0ahUKEwi1tpyQhovuAhXZfXAKHYWnCwYQ4dUDCA0&uact=5
+https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_environment_variables?view=powershell-7.1
+https://futurecreator.github.io/2018/11/09/it-infrastructure-basics/
+https://medium.com/@sunminlee89/%EB%AC%B4%EC%9E%91%EC%A0%95-%EC%95%B1%EB%A7%8C%EB%93%A4%EA%B8%B0-3-%EC%B9%B4%EC%B9%B4%EC%98%A4api-%EC%A0%95%EB%B3%B4%EB%A5%BC-%EC%84%9C%EB%B2%84-db%EC%97%90-%EC%A0%80%EC%9E%A5%ED%95%98%EA%B8%B0-32b7246e8dff
+https://dydrlaks.medium.com/rest-api-3e424716bab
+https://docs.microsoft.com/ko-kr/azure/service-bus-messaging/service-bus-messaging-overview
+https://www.google.com/search?rlz=1C1SQJL_koKR931KR931&sxsrf=ALeKk03RKVUiBtiN-aQ6PUraV31aGzEitQ%3A1610082447024&ei=j-j3X6xk1uP4Bvi7mIAD&q=api+composition&oq=api+composi&gs_lcp=CgZwc3ktYWIQAxgAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADoICAAQsQMQgwE6BQgAELEDOgcIIxDqAhAnOgQIIxAnOgQIABADOgQIABAKUKn5KViLlSpgr50qaANwAHgAgAGGAogBlA2SAQYwLjExLjGYAQCgAQGqAQdnd3Mtd2l6sAEKuAEDwAEB&sclient=psy-ab
+https://sarc.io/index.php/cloud/1765-api-composition
+https://microservices.io/patterns/data/api-composition.html
+https://waspro.tistory.com/649
+
