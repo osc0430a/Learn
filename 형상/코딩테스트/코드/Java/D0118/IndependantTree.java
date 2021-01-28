@@ -1,4 +1,4 @@
-package D0118;
+package CodingTest.D0118;
 
 import java.util.ArrayList;
 
@@ -93,12 +93,12 @@ public class IndependantTree {
 		// 정답 형식에 맞춰 출력.
 		
 		if(m1 > m2) {
-			System.out.println(m1);
-			System.out.println(answer);
+			System.out.println("ANSWER = " + m1);
+			System.out.println("NODE = " + answer);
 		}
 		else {
-			System.out.println(m2);
-			System.out.println(answer);
+			System.out.println("ANSWER = " + m2);
+			System.out.println("NODE = " + answer);
 		}
 		
 	}

@@ -1,4 +1,4 @@
-package D0125;
+package CodingTest.D0125;
 
 public class MyStatistics {
 

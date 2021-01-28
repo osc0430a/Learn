@@ -1,4 +1,4 @@
-package D0119;
+package CodingTest.D0119;
 
 import java.util.Stack;
 
@@ -33,6 +33,7 @@ public class Oper01 {
 				st.push(top);
 				st.push(tmp);
 			}
+			System.out.println(st);
 			if(st.empty())
 				System.out.println("YES");
 			else

@@ -1,4 +1,4 @@
-package D0119;
+package CodingTest.D0119;
 
 import java.util.Stack;
 
@@ -13,9 +13,11 @@ public class Zero {
 		for(int i=0; i<n; i++) {
 			if(in[i]==0) {
 				st.pop();
+				System.out.println("STACK = " + st);
 			}
 			else {
 				st.push(in[i]);
+				System.out.println("STACK = " + st);
 			}
 		}
 		

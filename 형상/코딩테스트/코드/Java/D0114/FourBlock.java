@@ -1,4 +1,4 @@
-package D0114;
+package CodingTest.D0114;
 
 import java.util.ArrayList;
 

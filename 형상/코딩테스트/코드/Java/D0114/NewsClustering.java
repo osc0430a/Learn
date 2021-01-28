@@ -1,4 +1,4 @@
-package D0114;
+package CodingTest.D0114;
 import java.util.ArrayList;
 
 public class NewsClustering {
@@ -103,7 +103,7 @@ public class NewsClustering {
 			System.out.println("Divied By Zero");
 			answer = 1;
 		}
-		System.out.println((int)(answer*65536));
+		System.out.println("ANSWER = " + (int)(answer*65536));
 		
 	}
 	

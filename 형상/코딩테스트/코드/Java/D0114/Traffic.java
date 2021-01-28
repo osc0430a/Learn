@@ -1,4 +1,4 @@
-package D0114;
+package CodingTest.D0114;
 
 class Req {
 	int start;
@@ -143,9 +143,9 @@ public class Traffic {
 		
 		// 내가 만든 parse함수를 이용하여 문자열을 파싱해서.
 		// 요청시간과 응답시간을 Class Req에 저장.
-		Req[] req = new Req[req3.length];
-		for(int i=0; i<req3.length; i++) {
-			req[i] = parse(req3[i]);
+		Req[] req = new Req[req2.length];
+		for(int i=0; i<req2.length; i++) {
+			req[i] = parse(req2[i]);
 		}		
 		
 		// 내가만든 count 함수를 이용하여 정답 계산
@@ -154,7 +154,7 @@ public class Traffic {
 		//단순 확인용 출력문
 		print(req);
 		
-		System.out.println(answer);
+		System.out.println("ANSWER = " + answer);
 		
 	}
 	

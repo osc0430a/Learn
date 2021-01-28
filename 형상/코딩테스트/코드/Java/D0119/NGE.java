@@ -1,4 +1,4 @@
-package D0119;
+package CodingTest.D0119;
 
 import java.util.Stack;
 
@@ -13,11 +13,12 @@ public class NGE {
 		}
 		for(int i=0; i<n; i++) {
 			Stack<?> tmp = (Stack<?>)st.clone();
-			nge(tmp, in[i]);
+			int nge = nge(tmp, in[i]);
+			System.out.print("NGE" + (i + 1) + " = " + nge + " ");
 		}
 	}
 	
-	static void nge(Stack<?> st, int n) {
+	static int nge(Stack<?> st, int n) {
 		int tmp;
 		int max = -1;
 		// 이렇게 구현하는 것이 스택의 가장 일반적인 용도이다.
@@ -32,11 +33,12 @@ public class NGE {
 			if(tmp>n)
 				max = tmp;
 		}
-		System.out.print(max + " ");
+		
+		return max;
 	}
 
 	public static void main(String[] args) {
-		solution(n[0], input[0]);
+		solution(n[1], input[1]);
 	}
 
 	

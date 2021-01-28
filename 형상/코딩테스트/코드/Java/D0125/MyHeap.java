@@ -1,9 +1,8 @@
-package D0125;
+package CodingTest.D0125;
 
 import java.util.Random;
 
 public class MyHeap {
-
 	int[] heap;
 	int size = 0;
 	int cur = 1;

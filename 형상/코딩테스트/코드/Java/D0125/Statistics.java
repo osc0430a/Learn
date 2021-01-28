@@ -1,10 +1,12 @@
-package D0125;
+package CodingTest.D0125;
 
 import java.util.ArrayList;
 import java.util.Collections;
 
 public class Statistics {
-	final static int[] input = {-1, -2 ,-3 ,-1 ,-2};
+	final static int[] input1 = {1, 3 , 8, -2, 2};
+	final static int[] input2 = {4000};
+	final static int[] input3 = {-1, -2 ,-3 ,-1 ,-2};
 	static int max = -4001;
 	static int min = 4001;
 	static int cnt = 0;
@@ -16,6 +18,7 @@ public class Statistics {
 	public static void main(String[] args) {
 		ArrayList<Integer> in = new ArrayList<Integer>();
 		// 값 넣으면서 계산 O(N)
+		int[] input = input1;
 		for(int i=0; i<input.length; i++) {
 			add += input[i];
 			in.add(input[i]);

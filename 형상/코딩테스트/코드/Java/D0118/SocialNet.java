@@ -1,4 +1,4 @@
-package D0118;
+package CodingTest.D0118;
 
 import java.util.ArrayList;
 
@@ -93,9 +93,9 @@ public class SocialNet {
 		int m2 = cal(1, 0);
 		
 		if(m1<m2)
-			System.out.println("answer = " + m1);
+			System.out.println("ANSEWR = " + m1);
 		else
-			System.out.println("answer = " + m1);
+			System.out.println("ANSWER = " + m2);
 		
 	}
 	

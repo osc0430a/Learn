@@ -1,4 +1,4 @@
-package D0118;
+package CodingTest.D0118;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -38,7 +38,7 @@ public class Tree {
 		while(tmp.size() > 0) {
 			for(int i=0; i<tmp.size(); i++) {
 				int child = tmp.poll();
-				System.out.println(child);
+				System.out.println("NOW = [" + child + "]");
 				if(cnt.indexOf(child) == -1) {
 					cnt.add(child);
 					for(int j=0; j<graph.get(child).childs.size();
@@ -49,8 +49,8 @@ public class Tree {
 						tmp.add(graph.get(child).childs.get(j));
 					}
 				}
-				System.out.println("tmp = " + tmp);
-				System.out.println("cnt = " + cnt);
+				System.out.println("Childs = " + tmp);
+				System.out.println("SubNode = " + cnt);
 			}
 		}
 		System.out.println("answer = " + cnt.size());
@@ -87,16 +87,26 @@ public class Tree {
 		}
 		// 트리 그리기
 		for(int i=1; i<N; i++) {
-			//
 			graph.get(input[i][0]-1).childs.add(input[i][1]-1);
 			graph.get(input[i][1]-1).childs.add(input[i][0]-1);
 		}
+		for(Node n:graph) {
+			System.out.println("NODE" + n.U + "'s childs : " + n.childs + " ");			
+		}
+		System.out.println();
 		// 부모노드 지정
 		graph = draw(R-1, graph);
+		//루트는 부모 제거.
+		graph.get(R-1).parent = -1;
+		for(Node n:graph) {
+			System.out.println("NODE" + n.U + "'s parent : [" + n.parent + "] ");			
+		}
+		System.out.println();
 		// 트리 탐색해서 개수 출력
 		for(int i=0; i<U.length; i++) {
 			cal_subNode(U[i], graph);
-		}		
+			System.out.println();
+		}
 	}
 	
 	

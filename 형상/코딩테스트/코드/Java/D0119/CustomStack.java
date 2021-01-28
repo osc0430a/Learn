@@ -1,4 +1,4 @@
-package D0119;
+package CodingTest.D0119;
 
 class CStack{
 	int n;
@@ -23,7 +23,7 @@ class CStack{
 
 public class CustomStack {
 
-	final static int n = 7;
+	final static int[] n = {14, 7};
 	final static String[] input1 = {"push 1", "push 2"
 			, "top", "size", "empty", "pop", "pop"
 			, "pop", "size", "empty", "pop", "push 3"
@@ -46,16 +46,16 @@ public class CustomStack {
 		else {
 			switch (s_in[0]) {
 				case "pop":
-					cs.pop();
+					System.out.println("POP = " + cs.pop());
 					break;
 				case "top":
-					cs.top();
+					System.out.println("TOP = " + cs.top());
 					break;
 				case "size":
-					cs.size();
+					System.out.println("SIZE = " + cs.size());
 					break;
 				case "empty":
-					cs.empty();
+					System.out.println("EMPTY = " + cs.empty());
 					break;
 			}
 		}
@@ -69,37 +69,38 @@ public class CustomStack {
 		size++;
 	}
 	
-	void pop() {
+	int pop() {
 		if(top != null) {
-			System.out.println(top.getN());
+			int val = top.getN();
 			top = top.getPre();
 			size--;
+			return val;
 		}
 		else {
-			System.out.println("-1");
+			return -1;
 		}
 	}
 	
-	void size() {
-		System.out.println(size);
+	int size() {
+		return size;
 	}
 	
-	void empty() {
+	int empty() {
 		if(top==null) 
-			System.out.println("1");		
+			return 1;		
 		else
-			System.out.println("0");
+			return 0;
 	}
 	
-	void top() {
+	int top() {
 		if(top!=null)
-			System.out.println(top.getN());
+			return top.getN();
 		else
-			System.out.println("-1");
+			return -1;
 	}
 	
 	public static void main(String[] args) {
-		for(int i=0; i<n; i++) {
+		for(int i=0; i<n[1]; i++) {
 			solution(input2[i]);
 		}		
 	}
