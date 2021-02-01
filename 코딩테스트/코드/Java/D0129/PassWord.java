@@ -9,7 +9,7 @@ public class PassWord {
 		int highMatch = 0;
 		int lowMatch = 0;
 		int bit = Integer.bitCount(in);
-		System.out.println("Nuber of One-bit = " + bit);
+		System.out.println("The Nuber of One-bit = " + bit);
 		
 		int tmp = in;
 		while(tmp > 0) {
