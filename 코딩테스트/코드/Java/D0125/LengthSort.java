@@ -1,4 +1,4 @@
-package D0125;
+package CodingTest.D0125;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -12,14 +12,19 @@ public class LengthSort {
 	
 	public static void main(String[] argds) {
 		ArrayList<String> in = new ArrayList<String>();
+		String tmp = "";
+		System.out.print("INPUT = [");
+		for(String s:input) {
+			tmp += s + ", ";
+		}
+		tmp = tmp.substring(0,tmp.length()-2);
+		System.out.println(tmp + "]");
 		
 		for(int i=0; i<input.length; i++) {
 			if(in.indexOf(input[i]) != -1)
 				continue;
 			in.add(input[i]);
 		}
-		
-		System.out.println(in);
 
 		Collections.sort(in, new Comparator<String>() {
 
@@ -31,6 +36,7 @@ public class LengthSort {
 			}
 		});
 		
+		System.out.print("ANSWER = ");
 		System.out.println(in);
 	}
 	

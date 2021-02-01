@@ -1,4 +1,4 @@
-package D0125;
+package CodingTest.D0125;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -9,7 +9,8 @@ public class CoordinateSort2 {
 	static int[][] input = {{0, 4}, {1, 2}
 	, {1, -1}, {2, 2}, {3, 3}};
 
-	public static void main(String[] args) {		
+	public static void main(String[] args) {
+		System.out.print("INPUT = ");
 		for(int[] i:input) {
 			System.out.print("["+i[0]+", "+i[1]+"] ");
 		}
@@ -24,6 +25,7 @@ public class CoordinateSort2 {
 			}			
 		});
 		
+		System.out.print("ANSWER = ");
 		for(int[] i:input) {
 			System.out.print("["+i[0]+", "+i[1]+"] ");
 		}

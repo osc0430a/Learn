@@ -1,4 +1,4 @@
-package D0125;
+package CodingTest.D0125;
 
 public class MyStatistics {
 
@@ -7,6 +7,7 @@ public class MyStatistics {
 		final int[][] input = {{1, 3, 8, -2, 2}
 		, {4000}, {-1, -2, -3, -1, -2}};
 		int max = -4001;
+		
 		int min = 4001;
 		int sum = 0;
 		int cnt = 0;
