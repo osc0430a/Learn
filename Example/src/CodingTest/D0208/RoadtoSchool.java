@@ -7,7 +7,7 @@ import java.util.Comparator;
 public class RoadtoSchool {
 	final static int m = 4;
 	final static int n = 3;
-	final static int[][] puddles = {{2,1}, {2, 3}, {2 ,2}};
+	final static int[][] puddles = {{2, 1}, {2, 3}, {2, 2}};
 	static ArrayList<int[]> puds = new ArrayList<int[]>();
 
 	private static int solution(int x, int y) {
