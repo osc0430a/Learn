@@ -3,15 +3,16 @@ package CodingTest.D0208;
 import java.util.ArrayList;
 
 public class ExpressN {
-
 	final static int N1 = 5;
 	final static int N2 = 2;
+	final static int N3 = 9;
 	
 	final static int input1 = 12;
 	final static int input2 = 11;
+	final static int input3 = 8;
 	
-	static int n = N2;
-	static int input = input2;
+	static int n = N3;
+	static int input = input3;
 	
 	private static int solution(int n) {
 		ArrayList<Integer> result;
@@ -45,8 +46,9 @@ public class ExpressN {
 			System.out.println("STEP" + i +" = " + result);
 			if(result.contains(input))
 				return i;
-			combination.add(result);		
-		}		
+			combination.add(result);
+		}
+		
 		return -1;
 	}
 	

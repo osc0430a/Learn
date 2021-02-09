@@ -3,7 +3,8 @@ package CodingTest.D0208;
 public class Triangle {
 	final static int[][] input = {{7}, {3, 8}, {8, 1 ,0}
 								, {2, 7 ,4 ,4}, {4, 5, 2, 6, 5}
-								,{1, 2, 3, 4, 5, 6}};
+								, {1, 2, 3, 4, 5, 6}};
+	static int[][] visited = new int[input.length][input.length];
 	
 	private static int calSum(int sum, int x, int y) {
 		int left = 0;
@@ -21,8 +22,7 @@ public class Triangle {
 	}
 	
 	private static int solution() {
-		int answer = calSum(0, 0, 0);
-		
+		int answer = calSum(0, 0, 0);		
 				
 		return answer;
 	}
@@ -41,6 +41,5 @@ public class Triangle {
 	
 		int answer = solution();
 		System.out.println("ANSWER = " + answer);
-	}
-	
+	}	
 }
