@@ -74,7 +74,7 @@ public class FindDecimal {
 		String input2 = "011";
 		String input3 = "9989999";
 		
-		String in = input3;
+		String in = input2;
 		System.out.println("INPUT = " + in);
 		
 		ArrayList<Integer> list = getNumList(in);
