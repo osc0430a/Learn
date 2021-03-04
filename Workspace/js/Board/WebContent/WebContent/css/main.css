@@ -1,0 +1,29 @@
+.table1{
+	
+	width: 600px;
+	border: 1px solid #cccccc;
+	border-collapse: collapse; 
+
+}
+
+.table2{
+	
+	width: 380px;
+	border: 1px solid #cccccc;
+	border-collapse: collapse; 
+
+}
+		
+.td1 {
+	
+	border: 1px solid #cccccc;
+	padding: 5px; /* 내부간격 */
+	
+}
+
+.td2 {
+	
+	border: 1px solid #cccccc;
+	padding: 5px; /* 내부간격 */
+	
+}
