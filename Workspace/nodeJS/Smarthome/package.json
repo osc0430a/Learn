@@ -1,0 +1,12 @@
+{
+    "name": "smarthome",
+    "version": "1.0.0",
+    "dependencies": {
+        "body-parser": "~1.18.1",
+        "ejs": "~3.1.5",
+        "express": "~4.17.1",
+        "express-session": "^1.15.5",
+        "node.js": "^0.0.1-security",
+        "nodejs": "^0.0.0"
+    }
+}
