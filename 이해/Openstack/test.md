@@ -10,17 +10,17 @@
 
 ### 1.2 재 배포 시도
 
-![deploy task](img/lock2.ng)
+![deploy task](img/lock2.png)
 
 해당 상태에서 배포명령을 수행하였는데 특정 task(Task 163) 에서 배포작업이 멈추는 현상이 발생했다. 위와 같은 상태에서 작업 진전 없이 계속 멈춰서 진전이 없었다.
 
 해당 task 의 debug 로그를 출력해보면 아래와 같다.
 
-![debug log 01](img/lock3png)
+![debug log 01](img/lock3.png)
 
 위와 같이 link_consumer_intents 삽입 및 수정 작업 중 어느 순간 추가 작업을 진행하지 않고 checkpoint 만 생성하고 있는 것을 확인할 수 있었다.
 
-![debug log 02](img/lock4png)
+![debug log 02](img/lock4.png)
 
 이후 계속해서 lock 을 renewing 하고 checkpoint 를 생성하는 작업만 반복하고 있는 것을 확인할 수 있다.
 
